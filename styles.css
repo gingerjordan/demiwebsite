@@ -54,8 +54,15 @@ li a:hover {
     position: relative;
     top: 20px;
 }
+
 nav {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+}
+
+#logo1 img {
+    position: relative;
+    height: auto;
+    width: 100%;
 }
