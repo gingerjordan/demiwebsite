@@ -3,22 +3,27 @@
 h1{
     color: black;
     font-family: 'Petit Formal Script';
+    
 }
 
 body 
    {background-color: #caafbd;
    color:#92939a;
+   
 
 }
 ul {list-style-type: none;
     margin: 0;
     padding: 0;
     background-color: #CAAFBD;
+    
 }
             
-li {float: left;
+li {
     outline-color: black;
     outline-width: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
             
 li a {
@@ -29,6 +34,8 @@ li a {
     text-decoration: none;
     font-family: 'Petit Formal Script';
     font-style: italic;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 li a:hover {
@@ -37,4 +44,18 @@ li a:hover {
     outline-color: black;
     outline-width: 10px;
 }
-    
+
+#logo img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 20px;
+}
+nav {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
