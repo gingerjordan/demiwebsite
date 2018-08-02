@@ -1,5 +1,40 @@
+@import url(https://fonts.googleapis.com/css?family=Petit+Formal+Script:regular);
+
+h1{
+    color: black;
+    font-family: 'Petit Formal Script';
+}
+
 body 
    {background-color: #caafbd;
    color:#92939a;
+
+}
+ul {list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #CAAFBD;
+}
+            
+li {float: left;
+    outline-color: black;
+    outline-width: 10px;
+}
+            
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-family: 'Petit Formal Script';
+    font-style: italic;
+}
+
+li a:hover {
+    background-color: #92939a;
+    color:black;
+    outline-color: black;
+    outline-width: 10px;
 }
     
