@@ -1,14 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Petit+Formal+Script:regular);
 
-div {
-    height: 200px;
-    width: 400px;
-
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin-top: -50px;
-    margin-left: -50px;
+wrapper {
+    width: 960px;
+    margin: 0 auto;
 }
 
 h1{
@@ -23,9 +17,9 @@ body {
    
 
 }
-ul {list-style-type: none;
+ul {
+    list-style-type: none;
     margin: 0;
-    
     padding: 0;
     background-color: #CAAFBD;
     
@@ -55,12 +49,12 @@ li a:hover {
 
 #logo img {
     max-width: 75%;
+    width: 300px;
     height: auto;
     display: block;
-    position: fixed;
-    top: 70%;
-    left: 15%;
-    right: 15%;
+    position: relative;
+    top: 500px;
+    left: -60px;
     border-radius: 5%;
 }
 
@@ -78,11 +72,13 @@ nav {
 
 .fa {
     padding: 20px;
-    font-size: 30px;
+    font-size: 50px;
     text-align: center;
     text-decoration: none;
-    border-radius: 50%;
-    width: 50px;
+    width: 15px;
+    border-radius: 100%;
+
+
 }
 
 .fa:hover {
@@ -94,7 +90,8 @@ nav {
     color: white;
     position: relative;
     top: 75px;
-    left: -20px
+    left: -5px;
+    display: inline-block;
 
 }
 
@@ -103,5 +100,5 @@ nav {
     color: white;
     position: relative;
     top: 75px;
-    left: -20px;
+    left: -5px;
 }
