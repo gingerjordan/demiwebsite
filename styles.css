@@ -1,5 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Petit+Formal+Script:regular);
 
+#content {
+    width: 100%;
+    margin: 0 auto;
+}
 #wrapper {
     width: 960px;
     margin: auto auto;
@@ -17,8 +21,7 @@ h1{
 
 body {
     background-color: #caafbd;
-    color:#92939a;
-   
+    color:#92939a; 
 
 }
 ul {
@@ -104,7 +107,7 @@ nav {
 .logo {
     position: relative;
     top: 100px;
-    left: 34.5%;
+    left: 35%;
     border-radius: 5%;
     max-width: 300px;
 }
