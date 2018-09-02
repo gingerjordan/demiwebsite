@@ -1,6 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Petit+Formal+Script:regular);
 
-wrapper {
+#wrapper {
+    width: 960px;
+    margin: auto auto;
+}
+#wrapper1 {
     width: 960px;
     margin: 0 auto;
 }
@@ -48,13 +52,13 @@ li a:hover {
 }
 
 #logo img {
-    max-width: 75%;
+    margin: auto auto;
     width: 300px;
     height: auto;
     display: block;
     position: relative;
-    top: 500px;
-    left: -60px;
+    top: 100px;
+    left: 0px;
     border-radius: 5%;
 }
 
@@ -89,9 +93,8 @@ nav {
     background: #3B5998;
     color: white;
     position: relative;
-    top: 75px;
-    left: -5px;
-    display: inline-block;
+    top: 50px;
+    left: 43%;
 
 }
 
@@ -99,6 +102,6 @@ nav {
     background: #125688;
     color: white;
     position: relative;
-    top: 75px;
-    left: -5px;
+    top: 50px;
+    left: 45%;
 }
