@@ -1,8 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Petit+Formal+Script:regular);
 
 #content {
-    width: 100%;
-    margin: 0 auto;
+    width: 960px;
+    margin: auto auto;
 }
 #wrapper {
     width: 960px;
@@ -10,12 +10,14 @@
 }
 #wrapper1 {
     width: 960px;
-    margin: 0 auto;
+    margin: auto auto;
 }
 
 h1{
     color: black;
     font-family: 'Petit Formal Script';
+    position: relative;
+    left: 12rem;
     
 }
 
@@ -29,22 +31,24 @@ ul {
     margin: 0;
     padding: 0;
     background-color: #CAAFBD;
-    
+    position: relative;
+    left: 20.7rem;
 }
             
 li {
     outline-color: black;
     outline-width: 10px;
+    float: left;
 }
             
 li a {
     display: block;
     color: black;
-    text-align: center;
     padding: 16px;
     text-decoration: none;
     font-family: 'Petit Formal Script';
     font-style: italic;
+
 }
 
 li a:hover {
@@ -57,6 +61,8 @@ li a:hover {
 #logo {
     width: 960px;
     margin: auto auto;
+    position: relative;
+    top: 20rem;
 
 }
 
@@ -71,6 +77,9 @@ nav {
     border-radius: 25%;
 }
 
+#logo1:hover{
+    opacity: 0.7;
+}
 
 .fa {
     padding: 20px;
@@ -91,8 +100,8 @@ nav {
     background: #3B5998;
     color: white;
     position: relative;
-    top: 50px;
-    left: 43%;
+    top: 75px;
+    left: 9.0rem;
 
 }
 
@@ -100,8 +109,8 @@ nav {
     background: #125688;
     color: white;
     position: relative;
-    top: 50px;
-    left: 45%;
+    top: 75px;
+    left: 9.3rem;
 }
 
 .logo {
@@ -110,4 +119,10 @@ nav {
     left: 35%;
     border-radius: 5%;
     max-width: 300px;
+}
+
+#pic {
+    position: relative;
+    left: 23rem;
+    top: 100px;
 }
